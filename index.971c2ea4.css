@@ -1,0 +1,26 @@
+*, body:before, body:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#player, #fire, #collisionAnimation, #lives, [id^="layer"], [id^="enemy"] {
+  display: none;
+}
+
+#canvas1 {
+  max-width: 100%;
+  max-height: 100%;
+  border: .5rem solid #000;
+  font-family: Creepster, cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=index.971c2ea4.css.map */
